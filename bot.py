@@ -2,10 +2,10 @@ import telebot
 from telebot import apihelper
 import time
 
-TOKEN= "8967536754:AAH4RAWeTQ3NAuqmdHT2x6fIk7iKCsy7oS8"
+TOKEN= "токен"
 
 # ТВОЙ SOCKS5 ПРОКСИ ИЗ НАСТРОЕК
-apihelper.proxy = {'http': 'socks5://192.168.16.79:10808'}
+apihelper.proxy = {'http': 'socks5://ip:port'}
 
 bot = telebot.TeleBot(TOKEN)
 
